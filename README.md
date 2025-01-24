@@ -18,7 +18,7 @@ This project provides a Python-based graphical user interface (GUI) application 
 
 # How to Use
 
-# Prerequisites
+## Prerequisites
 
 1. Python: Make sure Python 3.11 is installed on your system. Download Python
 
@@ -26,7 +26,7 @@ This project provides a Python-based graphical user interface (GUI) application 
 
 pip install tk
 
-# Setting Up the Application
+## Setting Up the Application
 
 1.Clone this repository or download the source code.
 
@@ -36,7 +36,7 @@ pip install tk
 
 python email_automation.py
 
-# GUI Instructions
+## GUI Instructions
 
 1. Sender Email: Enter the Gmail address you will use to send the email.
 
@@ -102,27 +102,27 @@ Ensure the date and time format is correct and in the future.
 
 # Code Overview
 
-# Main Components
+## Main Components
 
-# 1. send_email():
+## 1. send_email():
 
 Handles the email composition and sending logic.
 
 Includes error handling for file attachments and SMTP issues.
 
-# 2 .schedule_email():
+## 2 .schedule_email():
 
 Handles email scheduling using Python’s datetime and threading.Timer modules.
 
 Validates scheduling time and sends emails immediately if no date/time is provided.
 
-# 3. GUI:
+## 3. GUI:
 
 Built using tkinter.
 
 Includes input fields, buttons, and a scrollable instruction section for user guidance.
 
-# Future Enhancements
+## Future Enhancements
 
 Add support for multiple email providers (e.g., Yahoo, Outlook).
 
@@ -132,15 +132,15 @@ Enhance UI with more themes and dynamic layouts.
 
 Add logging for sent and scheduled emails.
 
-# License
+## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
 
-# Contributions
+## Contributions
 
 Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.
 
-# Acknowledgments
+## Acknowledgments
 
 Special thanks to the open-source community for making tools and resources available to developers around the world.
 
