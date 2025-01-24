@@ -79,6 +79,8 @@ Click Generate and copy the 16-character app password.
 Enter this app password in the "Sender Password" field in the application.
 
 # Screenshots
+![Screenshot 2025-01-25 024802](https://github.com/user-attachments/assets/f054f4e7-f1b9-4ccd-aae2-b8bcbf8db7ed)
+
 
 1. Main Interface:
 Displays fields for email, password, receiver details, subject, body, attachments, and scheduling options.
