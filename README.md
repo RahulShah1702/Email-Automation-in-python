@@ -1,8 +1,8 @@
-## Email Automation Tool with Scheduling
+# Email Automation Tool with Scheduling
 
 This project provides a Python-based graphical user interface (GUI) application for automating the sending of emails. It includes features such as scheduling emails for a specific date and time (including seconds), attaching files, and detailed instructions for setting up Gmail app passwords.
 
-## Features
+# Features
 
 1. Send Emails Instantly: Send emails to any recipient with a simple interface.
 
@@ -16,7 +16,7 @@ This project provides a Python-based graphical user interface (GUI) application 
 
 6. Mouse Scroll Support: Navigate through the instructions using the mouse wheel or buttons.
 
-## ow to Use
+# How to Use
 
 # Prerequisites
 
