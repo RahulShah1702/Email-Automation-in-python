@@ -137,7 +137,7 @@ time_entry.grid(row=7, column=1)
 # Send Button
 Button(root, text="Send Email", command=schedule_email, bg="#27AE60", fg="white", font=("Arial", 14)).pack(pady=10)
 
-# Instructions with Scroll Feature
+
 instructions_frame = Frame(root, bg="#ECF0F1")
 instructions_frame.pack(fill="both", expand=True, padx=20, pady=10)
 
@@ -156,7 +156,7 @@ canvas.configure(yscrollcommand=scrollbar.set)
 canvas.pack(side="left", fill="both", expand=True)
 scrollbar.pack(side="right", fill="y")
 
-# Bind Mouse Scroll
+
 canvas.bind_all("<MouseWheel>", lambda e: canvas.yview_scroll(int(-1 * (e.delta / 120)), "units"))
 
 instructions_label = Label(scrollable_frame, text="Steps to Use and Obtain App Password:", font=("Arial", 14, "bold"), bg="#ECF0F1")
